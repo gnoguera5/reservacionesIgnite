@@ -1,0 +1,28 @@
+body{
+    background-image: url("/img/fondo.jpg")!important;
+    color: white;
+}
+
+.jumbotron{
+    background: rgb(194, 209, 216); /* This is for ie8 and below */
+    background: rgba(194, 209, 216, 0.1);
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar li { color: white }
+
+/*links*/
+.pagination>.active>span{
+    z-index: 3;
+    color: #fff;
+    background: rgb(0, 0, 0); /* This is for ie8 and below */
+    background: rgba(0, 0, 0, 0.6);
+    border-color:black!important;
+    cursor: default;
+}
+
